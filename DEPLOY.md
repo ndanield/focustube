@@ -1,6 +1,6 @@
 # Deploy gratis de FocusTube
 
-Esta app esta lista para desplegarse en hosting gratis como Render o Railway.
+Esta app esta lista píara desplegarse en hosting gratis como Render o Railway.
 
 ## 1) Variables de entorno requeridas
 
