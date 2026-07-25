@@ -1,11 +1,9 @@
 services:
   - type: web
     name: focustube
-    runtime: java
+    runtime: docker
     plan: free
     rootDir: .
-    buildCommand: ./mvnw clean package -DskipTests
-    startCommand: java -Dserver.port=$PORT -jar target/*.jar
     healthCheckPath: /
     envVars:
       - key: FOCUSTUBE_GOOGLE_CLIENT_ID
